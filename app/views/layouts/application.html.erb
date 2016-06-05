@@ -46,9 +46,16 @@
 
 <div id="footer">
     <div class="container">
-      <b>Footer Here</b>
-      <br />
-      <%= link_to 'Link', '#' %>
+      <div class="col-xs-12 col-sm-3 social">
+        <b>Site developed by Wil Santana</b>
+        <br />
+        <%= link_to 'https://www.facebook.com/wil.santana' do %>
+        <%= image_tag 'fb.png', class: 'social-button' %>
+        <% end %>
+        <%= link_to 'https://github.com/fredosantana' do %>
+        <%= image_tag 'gh.png', class: 'social-button' %>
+        <% end %>
+      </div>
     </div>
   </div>
 </body>
