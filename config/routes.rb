@@ -1,5 +1,9 @@
 Waynesgarden::Application.routes.draw do
   root 'gardens#index'
+  get 'flowers', to: 'gardens#flowers'
+  get 'peppers', to: 'gardens#peppers'
+  get 'tomatoes', to: 'gardens#tomatoes'
+  get 'herbs', to: 'gardens#herbs'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

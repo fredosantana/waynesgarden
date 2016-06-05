@@ -4,11 +4,7 @@
          url('/assets/daniel-black-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
-
-
-
 
 @font-face {
     font-family: 'danielbold';
@@ -16,11 +12,7 @@
          url('/assets/daniel-bold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
-
-
-
 
 @font-face {
     font-family: 'danielregular';
@@ -28,5 +20,64 @@
          url('/assets/daniel-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+}
 
+@font-face {
+    font-family: 'santana-blackregular';
+    src: url('/assets/santana-black-webfont.eot');
+    src: url('/assets/santana-black-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/assets/santana-black-webfont.woff2') format('woff2'),
+         url('/assets/santana-black-webfont.woff') format('woff'),
+         url('/assets/santana-black-webfont.ttf') format('truetype'),
+         url('/assets/santana-black-webfont.svg#santana-blackregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'santana-blackcondensedregular';
+    src: url('/assets/santana-blackcondensed-webfont.eot');
+    src: url('/assets/santana-blackcondensed-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/assets/santana-blackcondensed-webfont.woff2') format('woff2'),
+         url('/assets/santana-blackcondensed-webfont.woff') format('woff'),
+         url('/assets/santana-blackcondensed-webfont.ttf') format('truetype'),
+         url('/assets/santana-blackcondensed-webfont.svg#santana-blackcondensedregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'santanabold';
+    src: url('/assets/santana-bold-webfont.eot');
+    src: url('/assets/santana-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/assets/santana-bold-webfont.woff2') format('woff2'),
+         url('/assets/santana-bold-webfont.woff') format('woff'),
+         url('/assets/santana-bold-webfont.ttf') format('truetype'),
+         url('/assets/santana-bold-webfont.svg#santanabold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'santana-regularcondensedRg';
+    src: url('/assets/santana-regularcondensed-webfont.eot');
+    src: url('/assets/santana-regularcondensed-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/assets/santana-regularcondensed-webfont.woff2') format('woff2'),
+         url('/assets/santana-regularcondensed-webfont.woff') format('woff'),
+         url('/assets/santana-regularcondensed-webfont.ttf') format('truetype'),
+         url('/assets/santana-regularcondensed-webfont.svg#santana-regularcondensedRg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'santanaregular';
+    src: url('/assets/santana-webfont.eot');
+    src: url('/assets/santana-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/assets/santana-webfont.woff2') format('woff2'),
+         url('/assets/santana-webfont.woff') format('woff'),
+         url('/assets/santana-webfont.ttf') format('truetype'),
+         url('/assets/santana-webfont.svg#santanaregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
 }
