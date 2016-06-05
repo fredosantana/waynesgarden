@@ -1,4 +1,5 @@
 Waynesgarden::Application.routes.draw do
+  devise_for :users
   root 'gardens#index'
   get 'flowers', to: 'gardens#flowers'
   get 'peppers', to: 'gardens#peppers'
