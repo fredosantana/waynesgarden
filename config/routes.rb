@@ -1,6 +1,9 @@
 Waynesgarden::Application.routes.draw do
   devise_for :users
   root 'gardens#index'
+  resources :users do
+    resources :comments, only: :create
+  end
   get 'flowers', to: 'gardens#flowers'
   get 'peppers', to: 'gardens#peppers'
   get 'tomatoes', to: 'gardens#tomatoes'
